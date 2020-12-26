@@ -96,6 +96,12 @@
 					<nodeVersion>v14.15.3</nodeVersion>
 				</configuration>
 				<executions>
+          <execution>
+            <id>npm-install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+          </execution>
 					<execution>
 						<id>install-npm</id>
 						<goals>
