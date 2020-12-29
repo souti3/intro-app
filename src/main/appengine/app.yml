@@ -1,4 +1,2 @@
 runtime: java11
 instance_class: F1
-skip_files:
-  - ^node_modules/(?!node\.js$).*
