@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'souti.ch';
-  content = 'I am happy to welcome you on my newly created web app!';
+  content = 'I am happy to welcome you on my newly created web app! #3';
 }
