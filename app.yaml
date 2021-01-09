@@ -11,12 +11,3 @@ handlers:
     static_files: dist/angular-on-gcp/index.html
     upload: dist/angular-on-gcp/index.html
 
-skip_files:
-  - e2e/
-  - node_modules/
-  - src/
-  - ^(.*/)?\..*$
-  - ^(.*/)?.*\.json$
-  - ^(.*/)?.*\.md$
-  - ^(.*/)?.*\.yaml$
-  - ^LICENSE
