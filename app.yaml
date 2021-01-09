@@ -1,13 +1,13 @@
 runtime: python27
 api_version: 1
 threadsafe: yes
+#
+#handlers:
+#  - url: /(.*\.(gif|png|jpg|css|js)(|\.map))$
+#    static_files: dist/angular-on-gcp/\1
+#    upload: dist/angular-on-gcp/(.*)(|\.map)
 
-handlers:
-  - url: /(.*\.(gif|png|jpg|css|js)(|\.map))$
-    static_files: dist/angular-on-gcp/\1
-    upload: dist/angular-on-gcp/(.*)(|\.map)
-
-  - url: /(.*)
-    static_files: dist/angular-on-gcp/index.html
-    upload: dist/angular-on-gcp/index.html
+#  - url: /(.*)
+#    static_files: dist/angular-on-gcp/index.html
+#    upload: dist/angular-on-gcp/index.html
 
