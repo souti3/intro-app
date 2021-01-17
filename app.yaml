@@ -4,10 +4,9 @@ threadsafe: yes
 
 handlers:
   - url: /(.*\.(gif|png|jpg|css|js)(|\.map))$
-    static_files: dist/angular-on-gcp/\1
-    upload: dist/angular-on-gcp/(.*)(|\.map)
+    static_files: src/\1
+    upload: src/(.*)(|\.map)
 
   - url: /(.*)
-    static_files: dist/angular-on-gcp/index.html
-    upload: dist/angular-on-gcp/index.html
-
+    static_files: src/index.html
+    upload: src/index.html
